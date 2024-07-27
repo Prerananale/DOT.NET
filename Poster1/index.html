@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Poster</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .poster {
+            background-color: rgba(244, 232, 232, 0.479);
+            width: 600px;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            padding: 10px 20px 60px 20px; /* Adjusted padding to ensure space for all elements */
+            box-sizing: border-box;
+        }
+        .header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 80px;
+            background-color: #e74c3c;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .footer {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            height: 60px; /* Set a height for footer to ensure content fits */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px; /* Adjust padding to fit content */
+            box-sizing: border-box; /* Ensure padding is included in height calculation */
+        }
+        .title {
+            color: #e74c3c;
+            font-size: 50px;
+            margin: 20px 0 10px;
+            font-family: "Brush Script MT";
+        }
+        .subtitle {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .highlight {
+            font-size: 32px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .names {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .names .person {
+            text-align: center;
+            margin: 0 20px;
+        }
+        .names img {
+            border-radius: 50%;
+            width: 140px;
+            height: 125px;y
+        }
+        .info {
+            background-color: #3f3fbb;
+            color: white;
+            padding: 10px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .contact {
+            font-size: 14px; /* Decrease font size to fit content */
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="header">
+            <img src="png3.jpg" alt="Sanjivani College of Engineering Logo" class="logo-left">
+            <h2>Sanjivani College of Engineering,Kopargaon
+            </h2>
+            <img src="png2.jpg" alt="Another Logo" class="logo-right">
+        </div>
+        <div class="content">
+            <h1 class="title">Congratulations</h1>
+            <p class="subtitle">for getting placed in</p>
+            <h2 class="highlight">Infosys. LTD</h2>
+            <p class="highlight">8.5 LPA</p>
+            <div class="names">
+                <div class="person">
+                    <img src="png1.jpg" >
+                    <p><b>Prerana Nale</b></p>
+                    
+                </div>
+                
+            </div>
+            <div class="info">
+                IT's first batch sets the bar high by claiming 8.5 LPA.
+            </div>
+        </div>
+        <div class="footer contact">
+            <p>Address: Ahmednagar, Maharashtra | Call: 930019301 | www.sanjivanicoe.org.in</p>
+        </div>
+    </div>
+</body>
+</html>
